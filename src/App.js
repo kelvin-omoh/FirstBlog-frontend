@@ -26,7 +26,7 @@ function App() {
       try {
         const res = await axios.get('http://localhost:3001/post');
        
-        setSampleArray(res.data)
+        setSampleArray(res.data);
       } catch (error) {
         console.log(error);
       }
